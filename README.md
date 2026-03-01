@@ -12,9 +12,3 @@ A minimal Retrieval-Augmented Generation (RAG) demo that answers questions using
 - `data/index/` — generated index files (`embeddings.npy`, `chunks.jsonl`) *(not committed)*
 - `src/ingest.py` — chunk documents + build embeddings index
 - `src/ask.py` — retrieve top-k chunks + call local LLM + produce cited answer
-
-## Setup
-
-### 1) Install Ollama and pull model
-`powershell
-ollama pull llama3.2:3b
